@@ -12,11 +12,10 @@ body {
   opacity: 50%;
 }
 
-#test {
+#bantxt {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  opacity: 1;
   color: white;
 }
 
