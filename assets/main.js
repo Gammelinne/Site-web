@@ -37,17 +37,17 @@ $(document).ready(()=>{
             $.get(url(event.target.value), (data) =>{
                 data.map((val) =>{
                     $("#inputState").append(`<option>${val.nom}</option>`)
-                    $("#reg").append(`<option selected>${val.region.nom}</option>`)
+                    $("#reg").val(val.region.nom)
                 })
             })
         }
         else if(event.target.value.length == 0){
             $("#inputState").append(`<option selected>...</option>`)
-            $("#reg").append(`<option selected>...</option>`)
+            $("#reg").val(`...`)
         }
         else{
             $("#inputState").empty()
-            $("#reg").empty()
+            $("#reg").val("...")
         }
     })
 });
