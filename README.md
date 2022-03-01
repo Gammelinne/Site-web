@@ -5,7 +5,7 @@ Dans le cadre de mes études j'ai décidé de faire un site vitrine en utilisant
 
 J'ai aussi implémenté dans le formulaire de contact l'api "API Geo" du gouvernement afin de récupérer automatiquement les villes reliées à un code postal ainsi que la région associée.
 
-## Je compte rajouter bientôt tous les commentaires si vous souhaiter apprendre à partir de mon projet
+## Je compte rajouter bientôt tous les commentaires si vous souhaitez apprendre à partir de mon projet
 
 ![image](https://user-images.githubusercontent.com/92758203/156254237-bbea8341-b1aa-41b0-9b00-a50b054f2fa3.png)
 
