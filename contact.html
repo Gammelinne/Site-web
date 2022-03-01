@@ -65,26 +65,38 @@
         <h2>Formulaire de contact</h2>
         <form class="row g-3">
             <div class="col-12">
+                <label for="inputAddress" class="form-label">E-mail</label>
+                <input type="email" name="email" class="form-control" id="inputAddress" placeholder="reply@audi.com">
+              </div>
+            <div class="col-12">
+                <label for="inputAddress" class="form-label">Nom</label>
+                <input type="text" name="nom" class="form-control" id="inputAddress" placeholder="Poutou">
+              </div>
+              <div class="col-12">
+                <label for="inputAddress2" class="form-label">Prenom</label>
+                <input type="text" name="Prenom" class="form-control" id="inputAddress2" placeholder="Philippe">
+              </div>
+            <div class="col-12">
               <label for="inputAddress" class="form-label">Address</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="255 Rue de l'avenir">
+              <input type="text" name="add1" class="form-control" id="inputAddress" placeholder="255 Rue de l'avenir">
             </div>
             <div class="col-12">
               <label for="inputAddress2" class="form-label">Address 2</label>
-              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio ou étage">
+              <input type="text" name="add2" class="form-control" id="inputAddress2" placeholder="Apartment, studio ou étage">
             </div>
             <div class="col-md-2">
                 <label for="inputZip" class="form-label">Code postal</label>
-                <input type="text" class="form-control" id="inputZip">
+                <input type="text" name="postal" class="form-control" id="inputZip" placeholder="14000">
             </div>
             <div class="col-md-4">
               <label for="inputState" class="form-label">Ville</label>
-              <select id="inputState" class="form-select">
+              <select id="inputState" name="ville" class="form-select">
                 <option selected>...</option>
               </select>
             </div>
             <div class="col-md-4">
                 <label for="inputState" class="form-label">Region</label>
-                <input type= "text" id="reg" class="form-control" placeholder="..." disabled/>
+                <input type= "text" name="region" id="reg" class="form-control" placeholder="..." disabled/>
             </div>
             <div class="col-12">
               <button type="submit" class="btn btn-primary">Envoyer</button>
