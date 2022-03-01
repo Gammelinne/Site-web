@@ -1,5 +1,5 @@
 <?php
-
+phpinfo()
     if (isset($_POST["ville"] && $_POST["email"] && $_POST["nom"] && $_POST["add1"]))
     {
         $emailTo = "kylian.renault@viacesi.fr";
@@ -23,6 +23,6 @@
         @mail($emailTo, $emailSubject, $emailMessage, $headers);
 
     }
-    header("Location: http://127.0.0.1:5500");
+    //header("Location: http://127.0.0.1:5500");
     
 ?>
