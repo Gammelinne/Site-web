@@ -1,6 +1,6 @@
 <?php
-phpinfo()
-    if (isset($_POST["ville"] && $_POST["email"] && $_POST["nom"] && $_POST["add1"]))
+
+    if (isset($_POST["ville"]) && isset($_POST["email"]) && isset($_POST["nom"]) && isset($_POST["add1"]))
     {
         $emailTo = "kylian.renault@viacesi.fr";
         $emailSubject = "Nouvelle demande de contact";
@@ -21,8 +21,6 @@ phpinfo()
                     "Reply-To: " . $email . "\r\n" .
                     "X-Mailer: PHP/" . phpversion();
         @mail($emailTo, $emailSubject, $emailMessage, $headers);
-
-    }
-    //header("Location: http://127.0.0.1:5500");
-    
+    } 
+    header('Location: ' . $_SERVER['HTTP_REFERER']);
 ?>
