@@ -1,0 +1,31 @@
+#img {
+  background-image: url(./picture/audi2.jpg);
+}
+
+.banner {
+  padding: 10px;
+  background-color: black;
+  opacity: 50%;
+}
+
+#bantxt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+}
+
+h1 {
+  width: 100%;
+  text-align: right;
+}
+
+h2 {
+  text-align: center;
+  color: whitesmoke;
+}
+
+main {
+  padding: 10px;
+}
+/*# sourceMappingURL=contact.css.map */
