@@ -97,6 +97,10 @@ main .container .col-sm {
   border-radius: 10px;
 }
 
+main h5 {
+  cursor: pointer;
+}
+
 main .carousel .item {
   height: 500px;
 }

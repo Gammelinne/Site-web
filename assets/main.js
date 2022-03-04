@@ -21,4 +21,13 @@ $(document).ready(()=>{
             $("#reg").val("...")
         }
     })
+    $("#1").click(()=>{
+        location.href = "./vehicule.html"
+    })
+    $("#2").click(()=>{
+        location.href = "./vehicule.html"
+    })
+    $("#3").click(()=>{
+        location.href = "./vehicule.html"
+    })
 });
