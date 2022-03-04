@@ -2,6 +2,7 @@ $colorAccent: #0d6efd;
 
 body{
     font-family: 'Rubik', sans-serif;
+	margin: 0;
 }
 
 #img{
@@ -79,5 +80,16 @@ main {
             border-radius: 10px;
         }
     }
-    
+	.carousel .item {
+		height: 500px;
+	  }
+	  .carousel-item img {
+			object-fit: scale-down;
+			top: 0;
+			left: 0;
+			min-width: 100%;
+			height: 500px;
+			size-adjust: 100% ;
+		  
+	  }
 }
